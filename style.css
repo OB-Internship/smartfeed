@@ -574,6 +574,8 @@ body,
 
 .middle-place .middle-place-holder .m-ico-2 svg {
     border-radius: 100%;
+    width: 2.4vw;
+    height: 2.4vw;
 }
 
 #wrapper {
