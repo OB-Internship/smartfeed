@@ -20,7 +20,9 @@ body,
     line-height: normal;
     letter-spacing: 0.5px;
     color: #202a35;
+    
 }
+
 
 .scroll-body {
     overflow: hidden;
