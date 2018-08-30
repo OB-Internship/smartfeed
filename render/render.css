@@ -3,6 +3,11 @@
     src: url("../assets/font/AvenirNext-Regular.ttf") format("opentype");
 }
 
+@font-face {
+    font-family: "Didot";
+    src: url("assets/font/Didot") format("opentype");
+}
+
 html,
 body,
 .row {
@@ -76,9 +81,9 @@ body,
     color: white;
     font-size: 3.5vh;
     display: inline;
-    vertical-align: 55%;
+    vertical-align: 60%;
     margin-left: 2vw;
-    font-family: 'AvenirNext';
+    font-family: 'Didot';
 }
 
 .newnavbar img {

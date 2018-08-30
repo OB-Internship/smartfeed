@@ -40,6 +40,8 @@
         <!-- <img src="../assets/art.png" alt="" style="width: 94%; margin-left: 3%;"> -->
         <img src="../assets/article.gif" alt="" style="width: 94%; margin-left: 3%;">
         <img src="../assets/art-bottom.png" alt="" style="width: 94%; margin-left: 3%;">
+<!--         <div class="card-div" ng-repeat="item in showItems"><img src="../assets/art-bottom.png" alt="" style="width: 100%; margin-left: 0%;"> </div>
+ -->        
         <div class="card-div" ng-repeat="item in showItems" ng-if="item.Id != 9">
             <div ng-include="'card-template/card.html'" ng-if="item.Page!='Comments' && item.Page!='Subscriptions' && item.Page!='BestOfWeb' && item.Page!='OrganicLink'"></div>
             <div ng-include="'card-template/card2.html'" ng-if="item.Page=='Comments' || item.Page=='Subscriptions'"></div>

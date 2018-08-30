@@ -59,9 +59,10 @@
 
 
 .card3 {
-    width: 100%;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    width: 97%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    margin-left: 1.9%;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -283,7 +284,9 @@
 }
 
 .best-web {
-    padding: 10px;
+    padding: 3%;
+    z-index: 0;
+    border-radius: 5px;
 }
 
 .card-body {
@@ -292,13 +295,14 @@
 
 .best-web .title {
     position: absolute;
-    line-height: 34px;
+    width: 80%;
+    margin-top: 1%;
 }
 
 .best-web .title p {
-    font-size: 20px;
+    font-size: 6vw;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-left: 4vw;
 }
 
 .best-web .cards-list {
@@ -306,12 +310,12 @@
 }
 
 .best-web slide .card {
-    width: 80%;
+    width: 90%;
 }
 
 .best-web .swiper-slide {
-    margin-top: 50px;
-    padding: 0 10px 10px 10px;
+    margin-top: 7vh;
+    padding: 0 1% 1% 1%;
 }
 
 .best-web .swiper-container-horizontal>.swiper-pagination {
