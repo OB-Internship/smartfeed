@@ -1948,6 +1948,9 @@ function SwiperFactory(Dom7, $parse) {
             if (s.params.effect !== 'slide' && s.effects[s.params.effect]) {
                 s.effects[s.params.effect].setTransition(duration);
             }
+            s.update();
+
+
             if (s.params.parallax && s.parallax) {
                 s.parallax.setTransition(duration);
             }

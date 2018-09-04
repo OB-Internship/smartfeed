@@ -3,9 +3,9 @@
         <p ng-if="item.Page=='OrganicLink'">You Might Like</p>
         <p ng-if="item.Page=='BestOfWeb'">Best of Web</p>
     </div>
-    <swiper>
+    <swiper g-init="updateSwiper()">
         <slides>
-            <slide ng-repeat="sub_item in CardItems[item.Page]">
+            <slide n ng-repeat="sub_item in CardItems[item.Page]">
                 <div class="col-md-4 card2 best-web card-body">
                     <div class="image-area">
                         <img src="./../assets/imgs/{{item.Page}}/{{item.Page}}-0{{$index + 1}}.png" alt="">
