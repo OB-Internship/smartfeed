@@ -215,10 +215,9 @@ body,
 }
 
 .card-markplace h2 {
-    font-size: 1vw;
+    font-size: 0.8vw;
     margin: 1vh 0 0 4.8vw;
     font-weight: normal;
-    text-transform: uppercase;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
@@ -238,11 +237,10 @@ body,
 }
 
 .middle-place h2 {
-    font-size: 1vw;
+    font-size: 0.8vw;
     margin: 0.9vh 0 0 2vw;
     font-weight: normal;
     color: white;
-    text-transform: uppercase;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
