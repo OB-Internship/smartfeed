@@ -412,8 +412,8 @@ body,
     background-size: contain;
     object-fit: contain;
     position: initial;
-    margin-left: 7vw;
-    margin-top: 11vh;
+    margin: 10% auto auto auto;
+
 }
 
 .learnlink{
@@ -421,7 +421,7 @@ body,
     align-content: center;
     text-decoration: underline;
     left: 47%;
-    margin-left: -2%;
+    margin-left: -2.5%;
     margin-top: 1vh;
 }
 
@@ -782,8 +782,7 @@ body,
     .mobile-device {
         width: 245px;
         height: 470px;
-        margin-left: 12%;
-        margin-top: 17%;
+        margin-top: 15%;
         
     }
     .mobile-device iframe {
@@ -826,8 +825,7 @@ body,
     .mobile-device {
         width: 320px;
         height: 570px;
-        margin-left: 13%;
-        margin-top: 15%;
+        margin-top: 13%;
     }
     .mobile-device iframe {
         width: 259px;
@@ -872,8 +870,7 @@ body,
     .mobile-device {
         width: 340px;
         height: 600px;
-        margin-left: 7vw;
-        margin-top: 11vh;
+        margin-top: 10%;
     }
     .mobile-device iframe {
         width: 274px;
@@ -901,8 +898,7 @@ body,
     .mobile-device {
         width: 293px;
         height: 600px;
-        margin-left: 9vw;
-        margin-top: 5vh;
+        margin-top: 6%;
     }
     .mobile-device iframe {
         width: 255px;
@@ -929,8 +925,7 @@ body,
     .mobile-device {
         width: 293px;
         height: 600px;
-        margin-left: 9vw;
-        margin-top: 10vh;
+        margin-top: 14%;
     }
     .mobile-device iframe {
         width: 255px;
@@ -954,6 +949,8 @@ body,
     .mobile-device {
         width: 384px;
         height: 471px;
+        margin-top: 9%;
+
     }
     .mobile-device iframe {
         width: 215px;
@@ -979,8 +976,8 @@ body,
     .mobile-device {
         width: 390px;
         height: 645px;
-        margin-left: 7vw;
-        margin-top: 8vh;
+        margin-top: 10%;
+
     }
     .mobile-device iframe {
         width: 292px;
@@ -1006,8 +1003,8 @@ body,
     .mobile-device {
         width: 390px;
         height: 645px;
-        margin-left: 7vw;
-        margin-top: 11vh;
+        margin-top: 19%;
+
     }
     .mobile-device iframe {
         width: 292px;
@@ -1044,8 +1041,7 @@ body,
     .mobile-device {
         width: 453px;
         height: 849px;
-        margin-left: 9vw;
-        margin-top: 10vh;
+        margin-top: 13%;
     }
     .mobile-device iframe {
         width: 386px;
@@ -1087,8 +1083,8 @@ body,
     .mobile-device {
         width: 600px;
         height: 1150px;
-        margin-top: 4vh;
-        margin-left: 8vw; 
+        margin-top: 5%;
+
     }
     .mobile-device iframe {
         width: 522px;
@@ -1111,8 +1107,8 @@ body,
     .mobile-device {
         width: 567px;
         height: 1150px;
-        margin-top: 4vh;
-        margin-left: 9vw; 
+        margin-top: 5%;
+
     }
     .mobile-device iframe {
         width: 494px;
@@ -1136,7 +1132,6 @@ body,
         width: 567px;
         height: 1150px;
         margin-top: 8vh;
-        margin-left: 10vw; 
     }
     .mobile-device iframe {
         width: 494px;
@@ -1175,7 +1170,6 @@ body,
         width: 800px;
         height: 1220px;
         margin-top: 9vh;
-        margin-left: 5vw; 
     }
     .mobile-device iframe {
         width: 554px;
@@ -1220,7 +1214,6 @@ body,
         width: 900px;
         height: 1371px;
         margin-top: 9vh;
-        margin-left: 5vw; 
     }
     .mobile-device iframe {
         width: 622px;
@@ -1270,7 +1263,6 @@ body,
             width: 1000px;
             height: 1653px;
             margin-top: 10vh;
-            margin-left: 7vw; 
         }
         .mobile-device iframe {
             width: 750px;
