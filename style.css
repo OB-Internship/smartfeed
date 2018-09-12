@@ -910,6 +910,9 @@ body,
         margin-top: 74px;
         margin-left: 19px;
     }
+    .learnlink {
+        margin-top: -1vh;
+    }
 
 }
 /* ************************************************************ */
