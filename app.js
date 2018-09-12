@@ -13,7 +13,7 @@ angular.module('myApp', ['ui.bootstrap', 'as.sortable', 'ngSQLite'])
         $scope.itemsList.items1.push({ Id: 3, Label: 'Paid Video', Page: 'PaidVideo' });
         $scope.itemsList.items1.push({ Id: 2, Label: 'Organic Video', Page: 'OrganicVideo' });
         $scope.itemsList.items1.push({ Id: 5, Label: 'Programmatic', Page: 'Programmatic' });
-        $scope.itemsList.items1.push({ Id: 6, Label: 'Best of Web', Page: 'BestOfWeb' });
+        $scope.itemsList.items1.push({ Id: 6, Label: 'Sphere', Page: 'BestOfWeb' });
         $scope.itemsList.items1.push({ Id: 7, Label: 'Subscriptions', Page: 'Subscriptions' });
         $scope.itemsList.items1.push({ Id: 8, Label: 'Comments', Page: 'Comments' });
         $scope.itemsList.items1.push({ Id: 9, Label: 'Placement', Page: 'Placement' });
