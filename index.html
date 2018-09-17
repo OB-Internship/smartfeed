@@ -83,6 +83,7 @@
                     <p style="font-size: 15px; margin: 3%;"> <span style="font-family: AvenirNext-Bold;" >Step 2</span><br> After populating your cards here, click "Generate". You can also rearrange, remove or reset cards</p>
                   </div>
                 <h2 class="title">After populating your cards here, click "Generate" and your feed will appear in <br>the mobile device</h2>
+                <h3 class="title">After populating your cards here, tap "Generate" and your feed will appear in <br>the mobile device</h3>
                 <div class="middle-header">
                     <button type="button" class="btn reset-btn" ng-click="reset();">
                         <div class="reset-icon">
@@ -136,7 +137,9 @@
                                 <p style="font-size: 15px;margin: 3%;"> <span style="font-family: AvenirNext-Bold">Smartfeed</span><br> Once the card arrangement is generated, the Smartfeed experience will appear in this mobile device below the article</p>
                         </div>
                 <div class="mobile-device">
-                            <iframe class="iframe" src="render/render.html" id="render-frame" style="display:block;"></iframe>
+                    <div class="mobile-device window">
+                            <iframe class="mobile-device window iframe" src="render/render.html" id="render-frame" style="display:block;"></iframe>
+                    </div>    
                 </div>
                 <div class="learnlink">
                     <a href="https://lp.outbrain.com/smartfeed/" target="_blank">Learn More</a>
