@@ -819,8 +819,8 @@ body,
         margin-top: 51px;
         margin-left: 82px; 
         overflow-y: scroll;
-/*      overflow-x:hidden; //Remove this on launch
- */     -webkit-overflow-scrolling: touch;
+        overflow-x: hidden; 
+        -webkit-overflow-scrolling: touch;
         position: absolute;
     }
 
@@ -835,7 +835,7 @@ body,
     }
 
     .item img{
-        margin-top: 3px;
+        margin-top: 2px;
     }
 
     .middle-place h2{
