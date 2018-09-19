@@ -83,7 +83,7 @@
                     <p style="font-size: 15px; margin: 3%;"> <span style="font-family: AvenirNext-Bold;" >Step 2</span><br> After populating your cards here, click "Generate". You can also rearrange, remove or reset cards</p>
                   </div>
                 <h2 class="title">After populating your cards here, click "Generate" and your feed will appear in <br>the mobile device</h2>
-                <h3 class="title">After populating your cards here, tap "Generate" and your feed will appear in <br>the mobile device</h3>
+                <h3 class="title">After populating your cards here, tap "Generate" and your feed will appear in the mobile device</h3>
                 <div class="middle-header">
                     <button type="button" class="btn reset-btn" ng-click="reset();">
                         <div class="reset-icon">
@@ -95,12 +95,17 @@
                     </button>
                     <button type="button" class="btn btn-primary" ng-click="save();" style="float: right;">Generate</button>
                 </div>
+
+
+
                 <div class="sortable-row" as-sortable="sortableOptions" data-ng-model="itemsList.items2">
+                    
                     <div ng-repeat="item in itemsList.items2" as-sortable-item>
-                        <div as-sortable-item-handle ng-if="item.Id != 9">
-                            <div class="middle-item middle-{{item.Id}} panel panel-default">
-                                <div class="middle-icon m-ico-1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="27" viewBox="0 0 17 27">
+                        <button type="button" class="ipad-touch-button" ng-click="closeItem($index);" style="float: right;">.</button>
+                            <div as-sortable-item-handle ng-if="item.Id != 9">
+                                <div class="middle-item middle-{{item.Id}} panel panel-default">
+                                    <div class="middle-icon m-ico-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="27" viewBox="0 0 17 27">
                                         <path fill="#FFF" fill-rule="evenodd" d="M.758.532h6.49v6.496H.757V.532zm9.734 0h6.49v6.496h-6.49V.532zM.758 10.276h6.49v6.495H.757v-6.495zm9.734 0h6.49v6.495h-6.49v-6.495zM.758 20.019h6.49v6.496H.757v-6.496zm9.734 0h6.49v6.496h-6.49v-6.496z"/>
                                     </svg>
                                 </div>
@@ -112,7 +117,7 @@
                                             <path d="M30.847 27.881l-2.988 2.988-4.85-4.85-4.86 4.859-3.05-3.051 4.858-4.859-4.826-4.827 2.988-2.988 4.827 4.827 4.88-4.881 3.052 3.05-4.882 4.882 4.85 4.85z"/>
                                         </g>
                                     </svg>
-                                </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="middle-item middle-place-holder panel panel-default" ng-if="item.Id == 9" id="placementholder">
@@ -237,3 +242,5 @@ tour.start();
     </div>
 </body>
 </html>
+
+

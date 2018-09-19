@@ -41,6 +41,7 @@ body,
     line-height: normal;
     letter-spacing: 1px;
     color: #202a35;
+    overflow:hidden;
 }
 
 .col-21,
@@ -401,6 +402,10 @@ body,
     background-color: #ffffff;
     border: solid 0.6px #5e9be4;
     border: solid 0.6px var(--soft-blue);
+}
+
+.ipad-touch-button {
+    display: none;
 }
 
 .middle-header {
@@ -801,27 +806,36 @@ body,
     
     /* Third Column */
     .mobile-device {
-        width: 245px;
-        height: 470px;
+        width: 400px;
+        height: 520px;
         margin-top: 15%;
         position: inherit;
     }
 
     .mobile-device .window{
         background: #000000;
-        width: 213px;
-        height: 380px;
-        top: 10px;
-        margin-left: 16px; 
+        width: 236px;
+        height: 421px;
+        margin-top: 51px;
+        margin-left: 82px; 
         overflow-y: scroll;
-        -webkit-overflow-scrolling: touch;
+/*      overflow-x:hidden; //Remove this on launch
+ */     -webkit-overflow-scrolling: touch;
         position: absolute;
     }
 
     .mobile-device .window .iframe {
-        margin-top: -10px;
+        margin-top: 0px;
         margin-left: 0px;
 
+    }
+
+    .ico-logo{
+        width: 24%;
+    }
+
+    .item img{
+        margin-top: 3px;
     }
 
     .middle-place h2{
@@ -830,9 +844,104 @@ body,
     
     .middle-place h3{
        display: block;
+       font-size: 10px;
+    }
+
+    .card-markplace h2{
+        font-size: 11px;
+    }
+
+    .card-markplace h1{
+        font-size: 22px;
+    }
+
+    .middle-place h1 {
+        font-size: 22px;
+    }
+
+    .md-title label{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .learnlink{
+        margin-left: -7%;
+        margin-top: 20px;
+
+    }
+    .learnlink a{
+        font-size: 13px;
+    }
+
+    .item {
+        padding: 5%;
+        height: 9vh;
+    }
+
+    .middle-header{
+        margin-right: 1.5vw;
+    }
+
+    .middle-place .sortable-row{
+        padding-right: 1vw;
+    }
+
+    .middle-place .reset-btn{
+        width: 3.5vw;
+
+    }
+
+    .card-item {
+        min-height: 14vh;
+    }
+
+    .tooltips-smartfeed{
+        font-size: 20px;
+    }
+
+    .panel-heading {
+        font-size: 0%;
+        padding-top: 1vh;
+}
+
+    .middle-place .reset-btn {
+        border-radius: 3px;
+    }
+
+    .middle-place .btn-primary {
+        font-family: AvenirNext-Medium;
+        font-weight: 600;
+        letter-spacing: 0px;
+        background: #5e9be4 !important;
+        width: 8vw;
+        height: 5vh;
+        border-radius: 3px;
+        background-color: #5e9be4;
+        background-color: var(--soft-blue);
+        border: solid 0.6 #5e9be4;
+        border: solid 0.6px var(--soft-blue);
+        font-size: 1.2vw;
+    }
+
+    .ipad-touch-button {
+        background: transparent;
+        border: transparent;
+        margin: 20px 5px 20px 122px;
+        position: absolute;
+        display: block;
+        color: transparent;
+    }
+
+    .middle-item {
+        height: 55px;
+    }
+
+    .middle-item p {
+        font-size: 11px;
     }
     
 }
+
 /* ************************************************************ */
 
 

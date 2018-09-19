@@ -241,10 +241,10 @@ body,
 
 
 
-  @media (max-width: 213px){
+  @media (max-width: 236px){
     .newnavbar {
         height: 35px;
-        width: 213px;
+        width: 236px;
     }
     .redlogobox {
         height: 35px;
@@ -261,8 +261,9 @@ body,
     }
     .card-div {
         padding: 2px 0;
-        width: 200px;
+        width: 214px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
     
     .card-slide {
