@@ -3,10 +3,7 @@
     src: url("../assets/font/AvenirNext-Regular.ttf") format("opentype");
 }
 
-@font-face {
-    font-family: "Didot";
-    src: url("assets/font/Didot") format("opentype");
-}
+
 
 html,
 body,
