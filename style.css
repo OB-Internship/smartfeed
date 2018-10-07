@@ -427,7 +427,6 @@ body,
 .mobile-device {
     background: url(assets/device-bg.png) no-repeat center center;
     background-size: contain;
-    object-fit: contain;
     position: initial;
     margin: 10% auto auto auto;
 
