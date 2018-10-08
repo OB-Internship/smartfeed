@@ -16,7 +16,6 @@ angular.module('myApp', ['ui.bootstrap', 'as.sortable', 'ngSQLite'])
         $scope.itemsList.items1.push({ Id: 6, Label: 'Sphere', Page: 'BestOfWeb' });
         $scope.itemsList.items1.push({ Id: 7, Label: 'Subscriptions', Page: 'Subscriptions' });
         $scope.itemsList.items1.push({ Id: 8, Label: 'Comments', Page: 'Comments' });
-        $scope.itemsList.items1.push({ Id: 9, Label: 'Placement', Page: 'Placement' });
 
         $scope.itemsList.items2.push({ Id: 9, Label: 'Placement', Page: 'Placement' });
 
